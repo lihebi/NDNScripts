@@ -3,7 +3,7 @@
 # author: lihebi
 # date: 10/15/2013
 # ================
-workspace='/home/hebi/Documents/GitHub/ndn'
+workspace="$HOME/Documents/GitHub/ndn"
 depend='git libssl-dev libpcap-dev libxml2 libexpat-dev openjdk-7-jdk ant'
 sudo apt-get install $depend
 mkdir -p $workspace

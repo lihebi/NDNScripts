@@ -4,7 +4,7 @@
 # date: 10/15/2013
 # =====================
 sudo apt-get install gawk
-workspace='/home/hebi/Documents/GitHub/ndn'
+workspace="$HOME/Documents/GitHub/ndn"
 mkdir -p $workspace
 cd $workspace
 git clone https://github.com/named-data/OSPFN2.0

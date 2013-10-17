@@ -3,7 +3,7 @@
 # author: lihebi
 # date: 10/15/2013
 # ====================
-workspace='/home/hebi/Documents/GitHub/ndn'
+workspace="$HOME/Documents/GitHub/ndn"
 mkdir -p $workspace
 depend='autoconf libtool openssl python-dev'
 sudo apt-get install $depend

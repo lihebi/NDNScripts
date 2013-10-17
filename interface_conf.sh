@@ -12,7 +12,7 @@ read -p 'enter my private ip:>> ' myprivateip
 read -p 'enter your private ip:>> ' yourprivateip
 read -p 'enter my ip:>> ' myip
 read -p 'enter your ip:>> ' yourip
-interface=hebi-interface
+interface=$HOME-interface
 myprivateip=10.0.1.9
 yourprivateip=10.0.1.10
 myip=192.168.1.108
