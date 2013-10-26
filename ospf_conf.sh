@@ -4,16 +4,17 @@
 # date: 10/16/2013
 # all rights reserved
 # ================
-myhost=$HOME.host
+myhost=PC07.host
 logfile=/tmp/ospfd.log
 interface=$HOME-interface #maybe need increase
-routerid=192.168.0.1 #need modify
+routerid=192.168.16.7 #need modify
 cat > ospfd.conf <<EOF
 hostname $myhost
 password pwd
 enable password pwd
 log file $logfile
-interface $interface
+!interface $interface
+interface face0
 router ospf
  ospf router-id $routerid
  redistribute connected
