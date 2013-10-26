@@ -4,10 +4,10 @@
 # date: 10/16/2013
 # all rights reserved
 # ================
-myhost=$HOME.host
+myhost=V11.host
 logfile=/tmp/ospfd.log
-interface=$HOME-interface #maybe need increase
-routerid=192.168.0.1 #need modify
+interface=face0 #maybe need increase
+routerid=192.168.16.11 #need modify
 cat > ospfd.conf <<EOF
 hostname $myhost
 password pwd
