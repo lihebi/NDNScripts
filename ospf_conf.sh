@@ -4,10 +4,17 @@
 # date: 10/16/2013
 # all rights reserved
 # ================
+<<<<<<< HEAD
 myhost=PC07.host
 logfile=/tmp/ospfd.log
 interface=$HOME-interface #maybe need increase
 routerid=192.168.16.7 #need modify
+=======
+myhost=V11.host
+logfile=/tmp/ospfd.log
+interface=face0 #maybe need increase
+routerid=192.168.16.11 #need modify
+>>>>>>> 018468b62698d876beb33da73c8b21627423c74b
 cat > ospfd.conf <<EOF
 hostname $myhost
 password pwd
