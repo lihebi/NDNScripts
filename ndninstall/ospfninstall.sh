@@ -7,7 +7,8 @@ sudo apt-get install gawk
 workspace="$HOME/Documents/GitHub/ndn"
 mkdir -p $workspace
 cd $workspace
-git clone https://github.com/named-data/OSPFN2.0
+#git clone https://github.com/named-data/OSPFN2.0
+git clone git@gitgeek.net:lihebi/ospfn2.0
 sudo adduser quagga
 cd /usr/local/etc/
 sudo mkdir quagga

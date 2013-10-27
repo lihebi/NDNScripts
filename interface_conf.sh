@@ -15,6 +15,11 @@ face0_remoteip=192.168.16.7
 =======
 myip=192.168.16.11
 face0_name=face0
+<<<<<<< HEAD
+face0_mygre=10.0.1.10
+face0_remotegre=10.0.1.9
+face0_remoteip=192.168.16.8
+=======
 face0_mygre=10.0.1.9
 face0_remotegre=10.0.1.8
 face0_remoteip=192.168.16.10

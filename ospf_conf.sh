@@ -5,10 +5,17 @@
 # all rights reserved
 # ================
 <<<<<<< HEAD
+<<<<<<< HEAD
 myhost=PC08.host
 logfile=/tmp/ospfd.log
 #interface=$HOME-interface #maybe need increase
 routerid=192.168.16.8 #need modify
+=======
+myhost=PC07.host
+logfile=/tmp/ospfd.log
+interface=$HOME-interface #maybe need increase
+routerid=192.168.16.7 #need modify
+>>>>>>> c3b46d099375193ffe236fbdccf14c107a6ad069
 =======
 myhost=V11.host
 logfile=/tmp/ospfd.log
@@ -22,7 +29,10 @@ enable password pwd
 log file $logfile
 !interface $interface
 interface face0
+<<<<<<< HEAD
 interface face1
+=======
+>>>>>>> c3b46d099375193ffe236fbdccf14c107a6ad069
 router ospf
  ospf router-id $routerid
  redistribute connected
